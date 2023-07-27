@@ -1,5 +1,15 @@
-# Little-Lemon-newsletter-sign-up
-This is the assignment of Coursera React Native Course of Module 05 which is Peer Graded assignment.
-You were provided with code snippets and tasked with using these, plus your own code, to create an app that allows users to move from a welcome screen to one with a signup form, in which they can input an email address and click on a subscribe button to trigger a message.
+> Why do I have a folder named ".expo" in my project?
 
-You will now take part in a peer review exercise in which you will submit your completed app for two of your peers to review. You will also be required to review two of your peers' apps.
+The ".expo" folder is created when an Expo project is started using "expo start" command.
+
+> What do the files contain?
+
+- "devices.json": contains information about devices that have recently opened this project. This is used to populate the "Development sessions" list in your development builds.
+- "packager-info.json": contains port numbers and process PIDs that are used to serve the application to the mobile device/simulator.
+- "settings.json": contains the server configuration that is used to serve the application manifest.
+
+> Should I commit the ".expo" folder?
+
+No, you should not share the ".expo" folder. It does not contain any information that is relevant for other developers working on the project, it is specific to your machine.
+
+Upon project creation, the ".expo" folder is already added to your ".gitignore" file.
